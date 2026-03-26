@@ -146,6 +146,7 @@ def run_benchmarks():
     t_cust = time.perf_counter() - start
     print(f"Аматорський custom_index: {t_cust:.4f} сек")
 
+
     N_dict = 3_000_000
     print(f"\nГенеруємо словник з {N_dict} елементів...")
     test_dict = {i: i for i in range(N_dict)}
